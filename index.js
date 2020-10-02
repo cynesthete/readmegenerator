@@ -16,6 +16,12 @@ const questions = [
         name: "description",
         message: "Describe your project"
     },
+    {
+        type: "list",
+        name: "license",
+        message: "What license do you have attached to your repo?",
+        choices: ["MIT", "Apache2.0", "GNUv3.0", "BFD3", "None"],
+    }
 
 ];
 
